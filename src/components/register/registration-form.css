@@ -1,0 +1,26 @@
+/* registration Form */
+#registration-form .form-group {
+  margin-bottom: 20px;
+}
+
+#registration-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#registration-form input, 
+#registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#registration-form textarea {
+  height: 200px;
+}
+
+#registration-form input:focus, 
+#registration-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
